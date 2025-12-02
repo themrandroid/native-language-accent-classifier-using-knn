@@ -65,13 +65,3 @@ Reproducibility checklist
 Evaluation pointers
 - The notebook computes train/test splits, cross-validation for k, classification report, and confusion matrix. Use these cells in [native_language_accent.ipynb](native_language_accent.ipynb) to reproduce metrics.
 - If you want a stronger model: try tree-based ensembles, logistic regression, or simple neural nets; consider per-frame or sequence models for longer audio.
-
-Data & licensing
-- The repository contains feature CSVs and scripts to download audio (YouTube links are in the notebook). Confirm license/permission for any redistributed audio.
-- Add a LICENSE file (MIT or similar) to make reuse terms explicit.
-
-Contributing
-- Fork, create a branch, and open a concise pull request describing changes and tests or reproducible steps.
-
-Contact and authorship
-- The notebook and app include author metadata. If you want the README to display a different author line, update it here.
